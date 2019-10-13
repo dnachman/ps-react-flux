@@ -9,7 +9,7 @@ function CoursesPage() {
   // replace componentDidMount
   useEffect(() => {
     getCourses().then(_courses => setCourses(_courses));
-  }, [ ] );
+  }, []);
 
   return (
     <>
